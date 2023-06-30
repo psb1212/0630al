@@ -26,7 +26,7 @@ chmod +x apkeep
 
 # Download Azur Lane
 download_azurlane () {
-    if [ ! -f "com.hkmanjuu.azurlane.gp.xapk" ]; then
+    if [ ! -f "https://d.apkpure.com/b/XAPK/com.hkmanjuu.azurlane.gp?version=latest" ]; then
     ./apkeep -a com.hkmanjuu.azurlane.gp .
     fi
 }
